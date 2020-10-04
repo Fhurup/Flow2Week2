@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpack/Babel-demo</title>
+</head>
+
+<body>
+  <ul id="menu" class="header">
+    <li><a href="" id="about">About</a></li>
+    <li><a href="" id="ex1">Ex1</a></li>
+    <li><a href="" id="ex2">Ex2</a></li>
+    <li><a href="" id="ex3">Ex3</a></li>
+  </ul>
+
+  <div class="content">
+
+    <!-- This is were you should place your basic HTML for exercise-1 -->
+    <div id="ex1_html" style="display:none;">
+      <h3>Exercise 1</h3>
+      <p>Add your basic HTML for Exercise 1 here</p>
+      <ul id="jokes"></ul>
+      <p id = "singleJoke"></p>
+
+      <form id='getJokeById'>
+        <input type="number" id="getJoke">
+        <button id="jokeId">Get Joke</button>
+      </form>
+
+      <form id='addJoke'>
+        <input type="text" id="addNewJoke">
+        <button id="AddJokes">Add joke</button>
+      </form>
+    </div>
+    <!-- End of HTML for exercise-1 -->
+
+
+
+    <!-- This is were you should place your basic HTML for exercise-2 -->
+    <div id="ex2_html" style="display:none;">
+      <h3>Exercise 2</h3>
+      <p id="ex2p">Add your basic HTML for Exercise 2 here</p>
+      <p id = fetchPlaceholder>Placeholder</p>
+      <button id= "fetch">Fetch</button>
+    </div>
+    <!-- End of HTML for exercise-2 -->
+
+
+    <!-- This is were you should place your basic HTML for exercise-3 -->
+    <div id="ex3_html" style="display:none;">
+      <h3>Ex-3</h3>
+      <p>Add your basic HTML for Exercise 3 here</p>
+
+      <div class="row" style="min-height: 5em;"">
+      <div class="col-md-8 pre-scrollable" style="background-color: lightgrey;">
+        <h5>All Users</h5>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Age</th>
+              <th>Name
+              <th>
+              <th>Gender</th>
+              <th>Email </th>
+          </thead>
+          <tbody id="allUserRows">
+          <tbody>
+        </table>
+      </div>
+      <div class="col-md-4" style="background-color: powderblue;">
+        <h5>Find User</h5>
+        <input type="text" id="Fid">
+        <button id="findUser">Find user</button>
+        <p id=singleUser>Find a user</p>
+      </div>
+    </div>
+    <div class="row" style="min-height: 5em;">
+      <div class="col-md-4" style="background-color: powderblue;">
+        <h5>Add User</h5>
+        <form id='addUser'>
+          <input type="text" id="age">
+          <input type="text" id="name">
+          <input type="text" id="gender">
+          <input type="text" id="email">
+          <button id="AddUser">Add user</button>
+        </form>
+      </div>
+      <div class="col-md-4" style="background-color: lightgrey;">
+        <h5>Edit User</h5>
+        <form id='editUser'>
+          <input type="text" id="ID">
+          <input type="text" id="Eage">
+          <input type="text" id="Ename">
+          <input type="text" id="Egender">
+          <input type="text" id="Eemail">
+          <button id="EditUser">Edit user</button>
+        </form>
+      </div>
+      <div class="col-md-4" style="background-color: powderblue;">
+        <h5>Delete User</h5>
+        <input type="text" id="Did">
+        <button id="deleteUser">Delete user</button>
+        <p id=deleteUserPlaceholder>Delete a user</p>
+      </div>
+    </div>
+  </div>
+  <!-- End of HTML for exercise-3 -->
+
+  <!---- HTML for the About page -->
+  <div id="about_html" style="display:none;">
+    <h3>About</h3>
+    <p>Watch the small video given as intro to this code, BEFORE you start using it</p>
+  </div>
+  <!-- End of HTML for ABOUT Page -->
+
+  </div>
+
+  <!-- #################################################################-->
+  <!-- IMPORTANT  DO NOT IMPORT ANY JavaScript in this file by YOURSELF -->
+  <!-- #################################################################-->
+
+</body>
+
+</html>
